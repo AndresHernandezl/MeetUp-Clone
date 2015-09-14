@@ -1,0 +1,249 @@
+/*<<<-Confuguraciones basicas->>>*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+.margenes-15{
+	padding: 15px;
+}
+.skyti{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 2;
+
+}
+/*<<<-Header Menu->>>*/
+.logo{
+	width: 68px;
+	height: 45px;
+	margin:15.5px 0;
+}
+.link-logo{
+	padding: 0;
+
+}
+.navbar-brand{
+	height: auto;
+}
+.espacioHeader{
+	margin-left: 236px !important;
+}
+
+.margin-Item-Menu{
+	margin: 7px 0 ;
+}
+.Menu{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.drop-menu{
+	color: #ffffff;
+	list-style: none;
+	margin: 29px 0 15px 50px;
+}
+.drop-menu a{
+	color: #9d9d9d;
+}
+.drop-menu-derechos{
+	color:#aaaaaa;
+	margin: 2px auto;
+	width: 104px;
+}
+
+.Menu-lista{
+	display: flex;
+	padding: 0em 1em 0em;
+	margin: 0;
+}
+.Menu-item{
+	width: 200px;
+	list-style: none;
+	padding: 5px;
+	/* margin-left: 2em; */
+}
+.Menu-item-activate:hover{
+	background-color: #6f6f6f;
+	width: 200px;
+	list-style: none;
+	/* margin-left: 2em; */
+}
+.Menu-item a{
+	text-decoration: none;
+}
+.espacioHeader.Menu-item.margin-Item-Menu > p > a {
+	background-color: #e2373c;
+	color: #fff;
+	padding: 10px;
+}
+.dropdown.drop-menu > a > span:hover{
+	color: #fff;
+}
+
+.Menu-title{
+	margin: 0 0 1px;
+	line-height: 1.2em;
+	color: #E0393E;
+	font-size: 1.75em;
+	font-weight: 700;
+}
+.Menu-subtitle{
+	color: #bbb;
+	font-size: 0.9em;
+	font-weight: 400;
+}
+/*<<<-Slider->>>*/
+
+.Slider{
+	background-image: url(../img/find-13.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-size: cover;
+}
+.button-flat--white {
+	color: #fff;
+	background: 0 0;
+	border: 2px solid #fff;
+	font-weight: bold;
+	border-radius: 5px;
+	text-shadow: none;
+	letter-spacing: normal;
+	line-height:30px;
+	padding: 20px;
+}
+.button-flat--white:hover {
+	color: rgba(5, 5, 5, 0.6) ;
+	background: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+.Slider-title{
+	color: #FFF;
+	font-size: 56px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.65);
+	padding-top: 32px;
+	padding-bottom: 0;
+	z-index: 2;
+	letter-spacing: -1px;
+}
+.Slider-subtitle{
+	display: block;
+	width: 480px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.65);
+	font-weight: 700;
+	margin-top: 4px;
+	padding-bottom: 18px;
+	line-height: 1.35;
+	letter-spacing: 0;
+	opacity: .95;
+	color: #FFF;
+	font-size: 20px;
+}
+
+.Slider-wrap{
+	margin: 60px 0;
+	text-align: right;
+}
+.Slider-wrap a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*<<<-Search box->>>*/
+.Search{
+	margin-top: -30px;
+
+}
+.Search-text{
+	line-height: 45px
+}
+.Search-box{
+	margin: 0 auto;
+	background-color: #505050;
+	color: #ddd;
+	width: 100%;
+	height: 75px;
+	border-radius: 5px;
+}
+.Search-boxSearch > div > input ,.Search-boxSearch > div > span > button{
+	height: 46px;
+}
+.Buttom-margin-80{
+	margin-left: 80px;
+}
+.btn-search-active{
+	background: #262626;
+	-webkit-box-shadow: rgba(0,0,0,.4) 2px 1px 6px -1px inset;
+	box-shadow: rgba(0,0,0,.4) 2px 1px 6px -1px inset;
+	filter: none;
+	color: #FFF;
+	border:0 ; 
+}.btn-search-desactive{
+	background: #414141;
+	-webkit-box-shadow: rgba(0,0,0,.4) 2px 1px 6px -1px inset;
+	box-shadow: rgba(0,0,0,.4) 2px 1px 6px -1px inset;
+	filter: none;
+	color: #FFF;
+	border:0 ;
+}
+/*<<<-Grupos ->>>*/
+.Grupos{
+
+}
+.Grupos-filtro{
+	text-align: right;
+}
+.Grupos-lista{
+	display: flex;
+	list-style: none;
+	padding: 0;
+}
+.Grupos-item{
+	border-radius: 10px;
+	margin: 15px auto;
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 6px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.75);
+
+}
+.Grupos-articulo{
+
+}
+.Grupos-img{
+	position: relative;
+}
+.Grupos-img img{
+	width: 100%;
+	-webkit-box-shadow: 0px 5px 15px 2px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 5px 15px 2px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 5px 15px 2px rgba(50, 50, 50, 0.75);
+}
+.Grupos-btMore{
+	position: absolute;
+	top: 160px;
+	right: 12px;
+}
+.Grupos-btMore i{
+	font-size: 1.5em;
+	
+}
+
+.Grupo-info{
+	background-color: #505050;
+	padding: 10px ;
+
+}
+.Grupro-title{
+	margin: 0;
+	color:#d8d8d8;
+}
+.ellipsize{
+	color:#d8d8d8;
+}
+
+
+
+

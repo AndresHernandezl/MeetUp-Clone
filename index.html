@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>{{appTitle}}</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/estilos.css">
+
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse Menu">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand link-logo" href="#">
+						<img class="logo" alt="meetup" src="img/logo-2x.png">
+					</a>
+					<ul class="Menu-lista">
+						<li class="Menu-item Menu-item-activate ">
+							<a class="" href="">
+								<p class="Menu-title">Busca</p>
+								<p class="Menu-subtitle">un Grupo de Meetup</p>
+							</a>
+						</li>
+						<li class="Menu-item Menu-item-activate">
+							<a class="" href="">
+								<p class="Menu-title">Abre</p>
+								<p class="Menu-subtitle">un Grupo de Meetup</p>
+							</a>
+						</li>
+						<li class="espacioHeader Menu-item margin-Item-Menu">
+							<p class="navbar-text navbar-right"><a href="#" class="navbar-link">Regístrate</a></p>
+						</li>
+						<li class="Menu-item margin-Item-Menu">
+							<p class="navbar-text navbar-right"><a href="#" class="navbar-link">Iniciar sesión</a></p>
+						</li>
+						<li class="dropdown drop-menu">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+
+							<ul class="dropdown-menu">
+								<li><a href="#">Ayuda</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Acerca de nosotros</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">!Estamos Contratando¡</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Privacidad y Términos</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Blog de tecnología</a></li>
+								<li><a href="#">Api</a></li>
+								<li><a href="#">Made in NYC</a></li>
+								<li role="separator" class="divider"></li>
+								<li><p class="drop-menu-derechos">&copy;2015 Meetup</p></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="col-md-12 Slider">
+			<div class="container">
+				<h1 class="Slider-title">¡Encuentra a tu gente!</h1>
+				<p class="Slider-subtitle">Meetup te ayuda a conocer personas que tienen pasiones y proyectos similares a los tuyos.</p>
+				<a href=""  class="button-flat--white ">¡Regístrate!&nbsp;<i class="glyphicon glyphicon-menu-right"></i></a>
+				<div class="Slider-wrap">
+					<a href="">Foto: The London Pugs Meetup</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 Search">
+			<div class="container">
+				<div class="Search-box">
+					<div class="col-md-5 margenes-15 Search-boxSearch">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Search for...">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button">Go!</button>
+							</span>
+						</div><!-- /input-group -->
+					</div><!-- /.col-md-6 -->
+					<div class="col-md-3 margenes-15">
+						<p class="Search-text">dentro de 5 km de  Bogotá, CO</p>
+					</div>
+					<div class="col-md-offset-1 col-md-3 margenes-15">
+						<p>
+							<button type="button" class="btn btn-default btn-lg btn-search-active ">Grupos</button>
+							<button type="button" class="btn btn-default btn-lg btn-search-desactive">Calendario</button>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="Grupos">
+			<div class="container">
+				<p class="Grupos-filtro">Ordenar por Recomendados </p>
+				<ul class="Grupos-lista">
+					<li class="Grupos-item">
+						<article class="Grupos-articulo">
+							<div class="Grupos-img">
+								<img src="img/439070461.jpeg" alt="">
+								<button type="button" class="btn btn-default Grupos-btMore" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus-circle"></i>
+									</button>
+							</div>
+							<div class="Grupo-info">
+								<h3 class="Grupro-title" itemprop="name">
+									Prototipado y modelado 3D
+								</h3>
+								<p class="small ellipsize">
+									Somos 626 Diseñadores y Makers
+								</p>
+								<div class="Grupos-saberMas">
+									<!-- Modal -->
+									<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+												</div>
+												<div class="modal-body">
+													...
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+													<button type="button" class="btn btn-primary">Save changes</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Modal End-->
+								</div>
+							</div>
+						</article>
+					</li>
+					<li class="Grupos-item">
+						<article class="Grupos-articulo">
+							<div class="Grupos-img">
+								<img src="img/439070461.jpeg" alt="">
+								<!-- Button trigger modal -->
+									<button type="button" class="btn btn-default Grupos-btMore" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus-circle"></i>
+									</button>
+							</div>
+							<div class="Grupo-info">
+								<h3 class="Grupro-title" itemprop="name">
+									Prototipado y modelado 3D
+								</h3>
+								<p class="small ellipsize">
+									Somos 626 Diseñadores y Makers
+								</p>
+								<div class="Grupos-saberMas">
+									<!-- Modal -->
+									
+									<!-- Modal -->
+									<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+												</div>
+												<div class="modal-body">
+													...
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+													<button type="button" class="btn btn-primary">Save changes</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Modal End-->
+								</div>
+							</div>
+						</article>
+					</li>
+					<li class="Grupos-item">
+						<article class="Grupos-articulo">
+							<div class="Grupos-img">
+								<img src="img/439070461.jpeg" alt="">
+								<button type="button" class="btn btn-default Grupos-btMore" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus-circle"></i>
+									</button>
+							</div>
+							<div class="Grupo-info">
+								<h3 class="Grupro-title" itemprop="name">Prototipado y modelado 3D</h3>
+								<p class="small ellipsize">
+									Somos 626 Diseñadores y Makers
+								</p>
+								<div class="Grupos-saberMas">
+									<!-- Modal -->
+									<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+												</div>
+												<div class="modal-body">
+													...
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+													<button type="button" class="btn btn-primary">Save changes</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Modal End-->
+								</div>
+							</div>
+						</article>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/angular.min.js"></script>
+	</body>
+</html>
